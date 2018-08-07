@@ -1,0 +1,28 @@
+{
+  "name": "TripPlanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "build": "webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrakeEvans/TripPlanner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrakeEvans/TripPlanner/issues"
+  },
+  "homepage": "https://github.com/DrakeEvans/TripPlanner#readme",
+  "dependencies": {
+    "mapbox-gl": "^0.47.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
