@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width">
     <title>Trip Planner</title>
     <link rel="stylesheet" href="./style.css"></link>
     <link href='https://api.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' ></link>
     <script src="./bundle.js" defer></script>
   </head>
   <body>
-    <div id="map"></div>
+    <nav>[navbar] </nav>
+    <main id="container">
+        <div id="map">
+            
+        </div>
+        <div id="sidebar">
+            <div id="marker_select">
+                <h3>Hotels</h3>
+                    <select name="hotels">
+                        <option value="default_hotel">Default</option>
+                    </select>
+                <h3>Restaurants</h3>
+                    <select name="restaurants">
+                        <option value="default_restaurant">Default</option>
+                    </select>
+                <h3>Things To Do</h3>
+                    <select name="activities">
+                        <option value="default_activity">Default</option>
+                    </select>
+            </div>
+            <div id="itinerary">
+                <h1>Itinerary:</h1>
+                <div id="itinerary_list">
+                    <h3>My Hotel</h3>
+                        <ul>
+                            <li>my_hotel</li>
+                        </ul>
+                    <h3>My Restaurants</h3>
+                        <ul>
+                            <li>my_restaurant</li>
+                        </ul>
+                    <h3>My Activities</h3>
+                        <ul>
+                            <li>my_activity</li>
+                        </ul>
+                </div>
+               
+            </div>
+        </div>
+                
+    </main>
 
   </body>
 </html> 
